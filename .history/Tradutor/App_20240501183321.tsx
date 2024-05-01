@@ -27,8 +27,8 @@ export default function App() {
         },
         body: JSON.stringify({
           q: originalText,
-          target: 'en', 
-          key: 'https://translate.googleapis.com', 
+          target: 'en', // Defina o idioma de destino aqui (por exemplo, 'en' para inglês)
+          key: 'SUA_CHAVE_DA_API_AQUI', // Insira sua chave da API do Google Translate aqui
         }),
       });
 

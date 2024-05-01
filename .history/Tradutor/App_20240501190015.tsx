@@ -28,7 +28,7 @@ export default function App() {
         body: JSON.stringify({
           q: originalText,
           target: 'en', 
-          key: 'https://translate.googleapis.com', 
+          key: 'SUA_CHAVE_DA_API_AQUI', 
         }),
       });
 
